@@ -1,0 +1,138 @@
+.card{
+    /* border:2px solid red; */
+    width:300px;
+    height:330px;
+    margin-top:50px;
+    margin-left:50px;
+    /* overflow:hidden; */
+    border-radius:10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.card:hover{
+     /* Scale up the card slightly on hover */
+     transform: scale(1.05);
+      /* Add box shadow for depth effect */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+     .Orange {
+        width:170px;
+        height:50px;    
+        background-color: #fe4c1c;
+        border-color: #fe4c1c;
+        color:white;
+        font-weight: 700;
+        border-radius:50px;
+        font-size: 20px;
+        margin-left:50px;
+        /* margin-top:5px; */
+        display: block;
+    } 
+}
+.card3{
+    /* border:2px solid red; */
+    width:300px;
+    height:310px;
+    margin-top:50px;
+    margin-left:55px;
+    /* overflow:hidden; */
+    border-radius:10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.card3:hover{
+     /* Scale up the card slightly on hover */
+     transform: scale(1.05);
+      /* Add box shadow for depth effect */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+     .Orange {
+        width:170px;
+        height:50px;    
+        background-color: #fe4c1c;
+        border-color: #fe4c1c;
+        color:white;
+        font-weight: 700;
+        border-radius:50px;
+        font-size: 20px;
+        margin-left:70px;
+        /* margin-top:5px; */
+        display: block;
+    } 
+}
+.Orange{
+display:none;
+}
+.img15{
+    /* border:2px solid blue; */
+    margin-left:60px;
+}
+.card_title{
+    /* border:2px solid red; */
+    text-align:center;
+}
+.card_text{
+    /* border:2px solid green; */
+    text-align:center;
+}
+.card1{
+    /* border:2px solid blue; */
+    display:flex;
+    gap:10px;
+    padding-left:250px;
+}
+.img16,.img17{
+    /* border:2px solid red; */
+    margin-left:80px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .card1 {
+        /* Adjust card container styles for smaller screens */
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    .card {
+        /* Adjust styles for individual cards */
+        margin-top: 20px; /* Reduce top margin */
+        margin-left: 0; /* Remove left margin */
+        /* border:2px solid red; */
+    }
+
+    .card3 {
+        /* Adjust styles for card3 */
+        margin-left: 0; /* Remove left margin */
+        /* border:2px solid red; */
+    }
+
+    .img15, .img16, .img17 {
+        /* Adjust styles for images */
+        
+        
+    }
+    .card_text{
+        /* border:2px solid red; */
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+    }
+    .card_text4 br{
+        display:none;
+    }
+    .card_text5 br{
+        display:none;
+    }
+    .card_text6 br{
+        display:none;
+    }
+    .card_text7 br{
+        display:none;
+    }
+    .card_text8 br{
+        display:none;
+    }
+    .card_title{
+        margin-top:10px;
+    }
+}

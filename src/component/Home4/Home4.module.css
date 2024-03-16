@@ -1,0 +1,43 @@
+.Ank{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:60px;
+}
+.img9,.img10,.img11,.img12,.img13,.img14{
+    /* border:2px solid blue; */
+    height:40px;
+    
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .Ank {
+      flex-wrap: wrap; /* Allow images to wrap to the next line */
+      justify-content: center; /* Center-align images */
+      gap:40px;
+      
+    }
+  
+    .img9,
+    .img10,
+    .img11,
+    .img12,
+    .img13,
+    .img14 {
+      width: 100%; /* Set width for each image to occupy half of the container */
+      max-width: 100px; /* Limit maximum width of each image */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 20px; /* Add margin between images */
+    
+    }
+  
+    /* Hide images after the second one */
+    .img9,
+    .img10,
+    .img13,
+    .img14{
+      display: none;
+    }
+  }

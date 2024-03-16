@@ -1,0 +1,144 @@
+.box{
+    /* border:2px solid red; */
+    margin-top:90px;
+    display:flex;
+}
+.box1{
+    /* border:2px solid blue; */
+    margin-left:100px;
+    margin-top:40px;
+}
+.box2{
+    font-weight:700;
+    color:grey
+}
+.box3{
+    font-weight:700;
+  
+}
+.boc1{
+    /* border:2px solid black; */
+    margin-top:30px;
+    margin-right:30px;
+    
+}
+.boc2{
+    /* border:2px solid black; */
+    margin-top:30px;
+    margin-left:33px;
+    
+}
+.boc6{
+    /* border:2px solid black; */
+    margin-top:30px;
+    margin-left:60px;
+    
+}
+.box8{
+    display:flex;
+}
+.box4{
+    color:#00c3ff;
+    font-weight:bold;
+    font-size:large;
+}
+.box5{
+    
+    font-weight:bold;
+}
+.box6{
+    
+    /* font-weight:bold; */
+    color:grey;
+    font-weight:400;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .box {
+        
+      /* Adjust styles for the container box for smaller screens */
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center align elements */
+    }
+    .box2{
+        font-size:small;
+    }
+    .box8 {
+        display:flex;
+        /* Adjust styles for the container box for smaller screens */
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align elements */
+      }
+  
+    .box1 {
+      /* Adjust styles for the first inner box for smaller screens */
+      margin-left: 30px; /* Remove left margin */
+      margin-top: 20px; /* Adjust top margin */
+      /* text-align: center; */
+
+    }
+  
+    .boc1 {
+      /* Adjust styles for the inner boxes for smaller screens */
+      margin-left: 10px; /* Add margin for spacing */
+      /* border:2px solid red; */
+    }
+    .boc2 {
+        /* Adjust styles for the inner boxes for smaller screens */
+        margin-left:0px; /* Add margin for spacing */
+        margin-right:20px;
+        /* border:2px solid blue; */
+      }
+      .boc6 {
+        /* Adjust styles for the inner boxes for smaller screens */
+        margin-left: 10px; /* Add margin for spacing */
+        /* border:2px solid red; */
+      }
+    .img18{
+        width:300px;
+    }
+    .box3{
+        /* border:2px solid red; */
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+    }
+    .box33 br{
+        /* border:2px solid red; */
+        display:none;
+    }
+    .box34 {
+        /* border:2px solid blue; */
+        margin-top:5px;
+    }
+    .box2{
+        margin-left:5px;
+    }
+    .box6{
+        /* border:2px solid red; */
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        font-size:17px;
+    }
+    .box66 br{
+        /* border:2px solid black; */
+        display:none;
+    }
+    .box67 br{
+        /* border:2px solid blue; */
+        display:none;
+    }
+    .box68 br{
+        /* border:2px solid red; */
+        display:none;
+    }
+    .box69{
+        /* border:2px solid red; */
+    }
+    .box4,.box5{
+        font-size:20px;
+        /* border:2px solid red; */
+    }
+  }

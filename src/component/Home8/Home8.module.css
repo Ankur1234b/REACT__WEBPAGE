@@ -1,0 +1,42 @@
+.v1{
+    /* border:2px solid red; */
+    margin-top:70px;
+}
+.img19{
+    margin-left:120px;
+    width:300px;
+}
+.img20{
+    margin-left:30px;
+    width:300px;
+    margin-top:80px;
+}
+.img21{
+    margin-left:30px;
+    width:300px;
+}
+.img22{
+    margin-left:30px;
+    width:300px;
+    margin-top:80px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .v1 {
+      /* Adjust container layout for smaller screens */
+      flex-direction: column; /* Stack images vertically */
+      align-items: center; /* Center align images horizontally */
+      /* border:2px solid red; */
+      padding-left:60px;
+    }
+  
+    .img19,.img21,.img20, .img22 {
+      /* Adjust image sizes for smaller screens */
+      width: 80%; /* Set width to 80% of container */
+      max-width: 300px; /* Limit maximum width */
+      margin: 20px 0; /* Add margin to top and bottom */
+      /* border:2px solid red; */
+    }
+    
+  }
