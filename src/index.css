@@ -41,7 +41,8 @@ li{
     /* border:2px solid blue;  */
     padding-left:10px;
     padding-right:10px;
-    width:380px;
+/*     width:380px; */
+    width:100%; 
   }
   .navbar-brand{
     /* border:2px solid blue; */
